@@ -11,7 +11,7 @@ class Content extends Component {
     renContent = (ministries) => (
         ministries ? 
         ministries.map((min)=>(
-            <Link to='/senders' key={min.id}>
+            <Link to={min.link} key={min.id}>
                 <div className='main-container'>
                     <div className='pic-holder'>
                         <img alt="app-pic" src={min.image} style={{height: '100%', width: '100%'}}/>
@@ -22,6 +22,8 @@ class Content extends Component {
         )) : null
     )
     render() { 
+        console.log(this.props.data.ministries);
+        
         return ( 
             <div>
                 {this.renContent(this.props.data.ministries)}

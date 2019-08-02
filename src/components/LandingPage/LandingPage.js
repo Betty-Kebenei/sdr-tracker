@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './Header/header';
+import MainPic from './Header/mainPic/mainPic';
 import Content from './Content/content';
 
 class LandingPage extends Component {
@@ -17,11 +17,8 @@ class LandingPage extends Component {
     render() { 
         return ( 
             <div>
-            <Header
-                showNav={this.state.showNav}
-                onHideNav={()=>this.toggleSideNav(false)}
-                onOpenNav={()=>this.toggleSideNav(true)}/>
-            <Content/>
+                <MainPic/>
+                <Content/>
             </div>
             
          );

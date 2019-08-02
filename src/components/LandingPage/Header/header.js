@@ -1,7 +1,7 @@
 import React from 'react'
 import FontAwesome from 'react-fontawesome';
 import SideNav from './sideNav/sideNav';
-import MainPic from './mainPic/mainPic';
+import './header.css';
 
 const Header = (props) => {
     const navBar = () => (
@@ -19,7 +19,6 @@ const Header = (props) => {
         <div>
             <SideNav {...props}/>
             {navBar()}
-            <MainPic/>
         </div>
      );
 }

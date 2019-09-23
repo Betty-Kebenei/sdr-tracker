@@ -1,7 +1,7 @@
 import React from 'react'
 import FontAwesome from 'react-fontawesome';
 import SideNav from './sideNav/sideNav';
-import './header.css';
+import './header.scss';
 
 const Header = (props) => {
     const navBar = () => (

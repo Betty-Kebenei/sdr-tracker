@@ -1,5 +1,5 @@
 import React from 'react';
-import './mainPic.css'
+import './mainPic.scss'
 
 const MainPic = () => {
     const displayPic = () => (

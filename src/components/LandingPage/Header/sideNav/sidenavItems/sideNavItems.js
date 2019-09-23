@@ -1,7 +1,7 @@
 import React from 'react';
 import FontAwesone from 'react-fontawesome';
 import { Link } from 'react-router-dom';
-import './sideNavItems.css';
+import './sideNavItems.scss';
 
 const SideNavItems = () =>{
     let navItems = [

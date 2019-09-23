@@ -10,3 +10,23 @@ export function ministriesData(){
       ]
     }
   }
+
+  export function whatNew(){
+    return{
+      type:'EVENTS_LIST',
+      payload:  [
+        { id: 1, date: "17th October 2019",
+          event: "Mission trip to Sombo, Marsabit County in the North Eastern Kenya",
+          image: "/images/senders/sombopic.jpg",
+          link: "/sombo-mission",
+          slug: "/sombo-mission" },
+          
+        { id: 2,
+          date: "17th October 2019",
+          event: "Upcoming Mission Trip to Sombo, Garissa",
+          image: "/images/sendme.jpg",
+          link: "/sombo-mission",
+          slug: "/sombo-mission" },
+      ]
+    }
+  }

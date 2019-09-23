@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { ministriesData } from '../../../actions/index';
 import { Link } from 'react-router-dom';
-import './content.css'
+import './content.scss'
 
 class Content extends Component {
     componentWillMount(){
@@ -22,8 +22,6 @@ class Content extends Component {
         )) : null
     )
     render() { 
-        console.log(this.props.data.ministries);
-        
         return ( 
             <div>
                 {this.renContent(this.props.data.ministries)}

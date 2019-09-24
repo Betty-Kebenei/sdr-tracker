@@ -1,0 +1,28 @@
+.news-container {
+  display: flex;
+  width: 100%;    
+  margin-bottom: 6%;
+
+  &-image {
+    width: 45%;
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-size: cover;
+  }
+
+  &-content {
+    padding: 0 2%;
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+
+    &-date {
+      padding-bottom: 4%;
+      font-family: 'Satisfy', cursive;
+    }
+  
+    &-read-more {
+      padding-top: 2%;
+    }
+  }
+}
